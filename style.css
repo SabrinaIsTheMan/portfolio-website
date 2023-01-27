@@ -41,6 +41,7 @@ a{
    color: inherit;
    cursor: pointer;
    transition: 0.3s;
+   padding: 5px;
 }
 
 body{
@@ -54,4 +55,20 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+
+.linksContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 30vw;
+   margin-top: 50px;
+   color: white;
+   font-size: 20px;
+}
+
+@media (max-width: 860px) {
+   .linksContainer{
+      flex-direction: column;
+   }
 }
