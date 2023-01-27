@@ -43,10 +43,15 @@ a{
    transition: 0.3s;
 }
 
+body{
+   text-align: center;
+}
+
 .textContainer {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
