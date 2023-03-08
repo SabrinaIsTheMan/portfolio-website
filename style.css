@@ -7,17 +7,17 @@ html {box-sizing: border-box;}
 .sr-only {position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
 html{
-    font-family: 'Mali', cursive;
-    font-size: 200%;
-    color: black;
-    background: url(gradient-sky.jpg);
-    background-size: cover;
+   font-family: 'Mali', cursive;
+   font-size: 200%;
+   color: black;
+   background: url(gradientSky.jpg);
+   background-size: cover;
 
-    /* background: -moz-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
-    background: -webkit-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
-    background: -o-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
-    background: -ms-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
-    background: linear-gradient(50deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%); */
+   /* background: -moz-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
+   background: -webkit-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
+   background: -o-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
+   background: -ms-linear-gradient(40deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%);
+   background: linear-gradient(50deg, rgba(7, 138, 202, 1) 0%, rgba(140, 149, 230, 1) 54%, rgba(150, 149, 232, 1) 58%, rgba(255, 159, 255, 1) 100%); */
 }
 
 .wrapper {
@@ -51,12 +51,12 @@ body{
 }
 
 .textContainer {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
 }
 
 .linksContainer {
