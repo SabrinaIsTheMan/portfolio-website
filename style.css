@@ -59,6 +59,11 @@ body{
    padding: 10px;
 }
 
+.textContainer img {
+   height: 25%;
+}
+
+
 .linksContainer {
    display: flex;
    justify-content: space-between;
